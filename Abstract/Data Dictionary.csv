@@ -4,15 +4,15 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 2,8,4,survyear,Survey year,Année d'enquête,All respondents,Tous les répondantes,,
 ,,,1976-,,,,,,
 3,12,2,survmnth,Survey month,Mois d'enquête,All respondents,Tous les répondantes,,
-,,,01,January,Janvier,,,,
-,,,02,February,Février,,,,
-,,,03,March,Mars,,,,
-,,,04,April,Avril,,,,
-,,,05,May,Mai,,,,
-,,,06,June,Juin,,,,
-,,,07,July,Juillet,,,,
-,,,08,August,Août,,,,
-,,,09,September,Septembre,,,,
+,,,1,January,Janvier,,,,
+,,,2,February,Février,,,,
+,,,3,March,Mars,,,,
+,,,4,April,Avril,,,,
+,,,5,May,Mai,,,,
+,,,6,June,Juin,,,,
+,,,7,July,Juillet,,,,
+,,,8,August,Août,,,,
+,,,9,September,Septembre,,,,
 ,,,10,October,Octobre,,,,
 ,,,11,November,Novembre,,,,
 ,,,12,December,Décembre,,,,
@@ -44,15 +44,15 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,9,Vancouver,Vancouver,,,,
 ,,,0,Other CMA or non-CMA,Autres RMR ou non-RMR,,,,
 7,18,2,age_12,Five-year age group of respondent,L'âge du répondant (groupes de 5 ans),All respondents,Tous les répondantes,,
-,,,01,15 to 19 years,15 à 19 ans,,,,
-,,,02,20 to 24 years,20 à 24 ans,,,,
-,,,03,25 to 29 years,25 à 29 ans,,,,
-,,,04,30 to 34 years,30 à 34 ans,,,,
-,,,05,35 to 39 years,35 à 39 ans,,,,
-,,,06,40 to 44 years,40 à 44 ans,,,,
-,,,07,45 to 49 years,45 à 49 ans,,,,
-,,,08,50 to 54 years,50 à 54 ans,,,,
-,,,09,55 to 59 years,55 à 59 ans,,,,
+,,,1,15 to 19 years,15 à 19 ans,,,,
+,,,2,20 to 24 years,20 à 24 ans,,,,
+,,,3,25 to 29 years,25 à 29 ans,,,,
+,,,4,30 to 34 years,30 à 34 ans,,,,
+,,,5,35 to 39 years,35 à 39 ans,,,,
+,,,6,40 to 44 years,40 à 44 ans,,,,
+,,,7,45 to 49 years,45 à 49 ans,,,,
+,,,8,50 to 54 years,50 à 54 ans,,,,
+,,,9,55 to 59 years,55 à 59 ans,,,,
 ,,,10,60 to 64 years,60 à 64 ans,,,,
 ,,,11,65 to 69 years,65 à 69 ans,,,,
 ,,,12,70 and over,70 et plus,,,,
@@ -109,15 +109,15 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,2,"Immigrant, landed more than 10 years earlier",Immigrants reçus plus de 10 ans auparavant,,,,
 ,,,3,Non-immigrant,Non immigrant,,,,
 17,33,2,naics_21,Industry of main job,Industrie de l'emploi principal ,Currently employed or worked within the past 12 months,Présentement occupé ou travaillé au cours des 12 derniers mois,Codes based on NAICS 2017 labour variant,Codes selon le SCIAN 2017 - variante de la population active
-,,,01,Agriculture,Agriculture,,,"111-112, 1100, 1151-1152","111-112, 1100, 1151-1152"
-,,,02,Forestry and logging and support activities for forestry,Foresterie et exploitation forestière et activités de soutien à la foresterie,,,"113, 1153","113, 1153"
-,,,03,"Fishing, hunting and trapping","Pêche, chasse et piégeage",,,114,114
-,,,04,"Mining, quarrying, and oil and gas extraction","Extraction minière, exploitation en carrière, et extraction de pétrole et de gaz",,,"21, 2100","21, 2100"
-,,,05,Utilities,Services publics,,,22,22
-,,,06,Construction,Construction,,,23,23
-,,,07,Manufacturing - durable goods,Fabrication de biens durables,,,"321, 327, 331-337","321, 327, 331-337"
-,,,08,Manufacturing - non-durable goods,Fabrication de biens non durables,,,"311-316, 322-326, 339","311-316, 322-326, 339"
-,,,09,Wholesale trade,Commerce de gros ,,,41,41
+,,,1,Agriculture,Agriculture,,,"111-112, 1100, 1151-1152","111-112, 1100, 1151-1152"
+,,,2,Forestry and logging and support activities for forestry,Foresterie et exploitation forestière et activités de soutien à la foresterie,,,"113, 1153","113, 1153"
+,,,3,"Fishing, hunting and trapping","Pêche, chasse et piégeage",,,114,114
+,,,4,"Mining, quarrying, and oil and gas extraction","Extraction minière, exploitation en carrière, et extraction de pétrole et de gaz",,,"21, 2100","21, 2100"
+,,,5,Utilities,Services publics,,,22,22
+,,,6,Construction,Construction,,,23,23
+,,,7,Manufacturing - durable goods,Fabrication de biens durables,,,"321, 327, 331-337","321, 327, 331-337"
+,,,8,Manufacturing - non-durable goods,Fabrication de biens non durables,,,"311-316, 322-326, 339","311-316, 322-326, 339"
+,,,9,Wholesale trade,Commerce de gros ,,,41,41
 ,,,10,Retail trade,Commerce de détail,,,44-45,44-45
 ,,,11,Transportation and warehousing,Transport et entreposage ,,,48-49,48-49
 ,,,12,Finance and insurance,Finances et assurances,,,52,52
@@ -132,27 +132,27 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,21,Public administration,Administrations publiques,,,91,91
 ,,,blank,Not applicable,Indisponible,,,,
 18,41,2,noc_10    ,Occupation at main job,Profession à l'emploi principal,Currently employed or worked within the past 12 months,Présentement occupé ou travaillé au cours des 12 derniers mois,Codes based on NOC 2021 labour variant,Codes selon le CNP 2021 variante de la population active
-,,,01,Management occupations,Gestion,,,"00, 10, 20, 30, 40, 50, 60, 70, 80, 90","00, 10, 20, 30, 40, 50, 60, 70, 80, 90"
-,,,02,"Business, finance and administration occupations, except management","Affaires, finance et administration, sauf les gestionnaires",,,14-Nov,14-Nov
-,,,03,"Natural and applied sciences and related occupations, except management","Sciences naturelles et appliquées et domaines apparentés, sauf les gestionnaires",,,21-22,21-22
-,,,04,"Health occupations, except management","Secteur de la santé, sauf les gestionnaires",,,31-33,31-33
-,,,05,"Occupations in education, law and social, community and government services, except management","Enseignement, droit et services sociaux, communautaires et gouvernementaux, sauf les gestionnaires",,,41-45,41-45
-,,,06,"Occupations in art, culture, recreation and sport, except management","Arts, culture, sports et loisirs, sauf les gestionnaires",,,51-55,51-55
-,,,07,"Sales and service occupations, except management","Vente et services, sauf les gestionnaires",,,62-65,62-65
-,,,08,"Trades, transport and equipment operators and related occupations, except management","Métiers, transport, machinerie et domaines apparentés, sauf les gestionnaires",,,72-75,72-75
-,,,09,"Natural resources, agriculture and related production occupations, except management","Ressources naturelles, agriculture et production connexe, sauf les gestionnaires",,,82-85,82-85
+,,,1,Management occupations,Gestion,,,"00, 10, 20, 30, 40, 50, 60, 70, 80, 90","00, 10, 20, 30, 40, 50, 60, 70, 80, 90"
+,,,2,"Business, finance and administration occupations, except management","Affaires, finance et administration, sauf les gestionnaires",,,14-Nov,14-Nov
+,,,3,"Natural and applied sciences and related occupations, except management","Sciences naturelles et appliquées et domaines apparentés, sauf les gestionnaires",,,21-22,21-22
+,,,4,"Health occupations, except management","Secteur de la santé, sauf les gestionnaires",,,31-33,31-33
+,,,5,"Occupations in education, law and social, community and government services, except management","Enseignement, droit et services sociaux, communautaires et gouvernementaux, sauf les gestionnaires",,,41-45,41-45
+,,,6,"Occupations in art, culture, recreation and sport, except management","Arts, culture, sports et loisirs, sauf les gestionnaires",,,51-55,51-55
+,,,7,"Sales and service occupations, except management","Vente et services, sauf les gestionnaires",,,62-65,62-65
+,,,8,"Trades, transport and equipment operators and related occupations, except management","Métiers, transport, machinerie et domaines apparentés, sauf les gestionnaires",,,72-75,72-75
+,,,9,"Natural resources, agriculture and related production occupations, except management","Ressources naturelles, agriculture et production connexe, sauf les gestionnaires",,,82-85,82-85
 ,,,10,"Occupations in manufacturing and utilities, except management","Fabrication et services d'utilité publique, sauf les gestionnaires",,,92-95,92-95
 ,,,blank,Not applicable,Indisponible,,,,
 19,43,2,noc_43,Occupation at main job,Profession à l'emploi principal,Currently employed or worked within the past 12 months,Présentement occupé ou travaillé au cours des 12 derniers mois,Codes based on NOC 2021 labour variant,Codes selon le CNP 2021 variante de la population active
-,,,01,Legislative and senior management occupations,Membres des corps législatifs et cadres supérieurs/cadres supérieures,,,0,0
-,,,02,Specialized middle management occupations,Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées,,,"10, 20, 30, 40, 50","10, 20, 30, 40, 50"
-,,,03,Middle management occupations in retail and wholesale trade and customer services,"Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",,,60,60
-,,,04,"Middle management occupations in trades, transportation, production and utilities","Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",,,"70, 80, 90","70, 80, 90"
-,,,05,Professional occupations in finance,Personnel professionnel en finance,,,111,111
-,,,06,Professional occupations in business,Personnel professionnel en gestion des affaires,,,112,112
-,,,07,Administrative and financial supervisors and specialized administrative occupations,Personnel de supervision du travail administratif et financier et personnel administratif spécialisés,,,12,12
-,,,08,Administrative occupations and transportation logistics occupations,Personnel administratif et personnel de la logistique du transport,,,13,13
-,,,09,Administrative and financial support and supply chain logistics occupations,Personnel de soutien administratif et finance et en logistiques de chaîne d'approvisionnement,,,14,14
+,,,1,Legislative and senior management occupations,Membres des corps législatifs et cadres supérieurs/cadres supérieures,,,0,0
+,,,2,Specialized middle management occupations,Cadres intermédiaires spécialisés/cadres intermédiaires spécialisées,,,"10, 20, 30, 40, 50","10, 20, 30, 40, 50"
+,,,3,Middle management occupations in retail and wholesale trade and customer services,"Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",,,60,60
+,,,4,"Middle management occupations in trades, transportation, production and utilities","Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",,,"70, 80, 90","70, 80, 90"
+,,,5,Professional occupations in finance,Personnel professionnel en finance,,,111,111
+,,,6,Professional occupations in business,Personnel professionnel en gestion des affaires,,,112,112
+,,,7,Administrative and financial supervisors and specialized administrative occupations,Personnel de supervision du travail administratif et financier et personnel administratif spécialisés,,,12,12
+,,,8,Administrative occupations and transportation logistics occupations,Personnel administratif et personnel de la logistique du transport,,,13,13
+,,,9,Administrative and financial support and supply chain logistics occupations,Personnel de soutien administratif et finance et en logistiques de chaîne d'approvisionnement,,,14,14
 ,,,10,Professional occupations in natural sciences,Personnel professionnel des sciences naturelles,,,211,211
 ,,,11,Professional occupations in applied sciences (except engineering),Personnel professionnel des sciences appliquées (sauf ingénierie),,,212,212
 ,,,12,Professional occupations in engineering,Personnel professionnel en ingénierie,,,213,213
@@ -253,7 +253,7 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,001-240,Months,Mois,,,,
 ,,,blank,Not applicable,Indisponible,,,,
 36,83,6,hrlyearn,Usual hourly wages,Salaire horaire habituel,"Currently employed, employees","Occupés, employés","Before taxes and other deductions. Includes tips, commission and bonuses. Two decimals implied","Avant impôt et autres déductions. Comprend les pourboires, les commissions et les primes. Deux décimales implicites."
-,,,000001-999999,Current dollars,Dollares courantes,,,,
+,,,000001-999999,Establishment size,Dollares courantes,,,,
 ,,,blank,Not applicable,Indisponible,,,,
 37,89,1,union,Union status,Situation syndicale,"Currently employed, employees","Occupés, employés",,
 ,,,1,Union member,Membre d’un syndicat,,,,
@@ -305,16 +305,16 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,5,"Job leavers, retired","Ont quitté leur emploi, ont pris leur retraite",,,,
 ,,,blank,Not applicable,Indisponible,,,,
 45,98,2,whyleftn,Reason for leaving job during previous year ,Raisons pour avoir quitté l'emploi durant l'année précédente,Not currently employed but worked within the previous twelve months,Pas actuellement en emploi mais a travaillé au cours des douze derniers mois,,
-,,,00,"Job leavers, other reasons","Ont quitté leur emploi, autres raisons",,,,
-,,,01,"Job leavers, own illness or disability","Ont quitté leur emploi, maladie ou incapacité",,,,
-,,,02,"Job leavers, caring for children","Ont quitté leur emploi, soins des enfants",,,,
-,,,03,"Job leavers, pregnancy","Ont quitté leur emploi, sont enceintes",,,,
-,,,04,"Job leavers, personal or family responsibilities","Ont quitté leur emploi, obligations personnelles ou familiales",,,,
-,,,05,"Job leavers, going to school","Ont quitté leur emploi, vont à l'école",,,,
-,,,06,"Job leavers, dissatisfied","Ont quitté leur emploi, insatisfaction",,,,
-,,,07,"Job leavers, retired","Ont quitté leur emploi, ont pris leur retraite",,,,
-,,,08,"Job leavers, business sold or closed down (self-employed)","Ont quitté leur emploi, ont vendu ou fermé l'entreprise (travailleurs autonomes)",,,,
-,,,09,"Job losers, end of seasonal job (employee)","Ont perdu leur emploi, fin de l'emploi saisonnier (employés)",,,,
+,,,0,"Job leavers, other reasons","Ont quitté leur emploi, autres raisons",,,,
+,,,1,"Job leavers, own illness or disability","Ont quitté leur emploi, maladie ou incapacité",,,,
+,,,2,"Job leavers, caring for children","Ont quitté leur emploi, soins des enfants",,,,
+,,,3,"Job leavers, pregnancy","Ont quitté leur emploi, sont enceintes",,,,
+,,,4,"Job leavers, personal or family responsibilities","Ont quitté leur emploi, obligations personnelles ou familiales",,,,
+,,,5,"Job leavers, going to school","Ont quitté leur emploi, vont à l'école",,,,
+,,,6,"Job leavers, dissatisfied","Ont quitté leur emploi, insatisfaction",,,,
+,,,7,"Job leavers, retired","Ont quitté leur emploi, ont pris leur retraite",,,,
+,,,8,"Job leavers, business sold or closed down (self-employed)","Ont quitté leur emploi, ont vendu ou fermé l'entreprise (travailleurs autonomes)",,,,
+,,,9,"Job losers, end of seasonal job (employee)","Ont perdu leur emploi, fin de l'emploi saisonnier (employés)",,,,
 ,,,10,"Job losers, end of temporary or casual (employee)","Ont perdu leur emploi, fin de l'emploi temporaire ou occasionnel (employés)",,,,
 ,,,11,"Job losers, company moved or out of business (employee)","Ont perdu leur emploi, l'entreprise a déménagé ou a fermé (employés)",,,,
 ,,,12,"Job losers, business conditions (employee)","Ont perdu leur emploi, conjoncture économique (employés)",,,,
@@ -370,15 +370,15 @@ Field_Champ,Position_Position,Length_Longueur,Variable_Variable,EnglishLabel_Eti
 ,,,3,Part-time student,Étudiants à temps partiel,,,,
 ,,,blank,Not applicable,Indisponible,,,,
 58,116,2,efamtype,Type of economic family,Genre de famille économique,All respondents,Tous les répondantes,From viewpoint of reference person,Du point de vue de la personne de référence
-,,,01,Person not in an economic family,Personne hors famille économique,,,,
-,,,02,"Dual-earner couple, no children or none under 25","Famille comptant un couple avec deux soutiens, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
-,,,03,"Dual-earner couple, youngest child 0 to 17","Famille compant un couple avec deux soutiens, dont le plus jeune enfant a entre 0 et 17 ans",,,,
-,,,04,"Dual-earner couple, youngest child 18 to 24","Famille compant un couple avec deux soutiens, dont le plus jeune enfant a entre 18 et 24 ans",,,,
-,,,05,"Single-earner couple, male employed, no children or none under 25","Famille comptant un couple avec un homme comme soutien, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
-,,,06,"Single-earner couple, male employed, youngest child 0 to 17","Famille comptant un couple avec un homme comme soutien, dont le plus jeune enfant a entre 0 et 17 ans",,,,
-,,,07,"Single-earner couple, male employed, youngest child 18 to 24","Famille comptant un couple avec un homme comme soutien, dont le plus jeune enfant a entre18 et 24 ans",,,,
-,,,08,"Single-earner couple, female employed, no children or none under 25","Famille comptant un couple avec une femme comme soutien, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
-,,,09,"Single-earner couple, female employed, youngest child 0 to 17","Famille comptant un couple avec une femme comme soutien, dont le plus jeune enfant a entre 0 et 17 ans",,,,
+,,,1,Person not in an economic family,Personne hors famille économique,,,,
+,,,2,"Dual-earner couple, no children or none under 25","Famille comptant un couple avec deux soutiens, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
+,,,3,"Dual-earner couple, youngest child 0 to 17","Famille compant un couple avec deux soutiens, dont le plus jeune enfant a entre 0 et 17 ans",,,,
+,,,4,"Dual-earner couple, youngest child 18 to 24","Famille compant un couple avec deux soutiens, dont le plus jeune enfant a entre 18 et 24 ans",,,,
+,,,5,"Single-earner couple, male employed, no children or none under 25","Famille comptant un couple avec un homme comme soutien, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
+,,,6,"Single-earner couple, male employed, youngest child 0 to 17","Famille comptant un couple avec un homme comme soutien, dont le plus jeune enfant a entre 0 et 17 ans",,,,
+,,,7,"Single-earner couple, male employed, youngest child 18 to 24","Famille comptant un couple avec un homme comme soutien, dont le plus jeune enfant a entre18 et 24 ans",,,,
+,,,8,"Single-earner couple, female employed, no children or none under 25","Famille comptant un couple avec une femme comme soutien, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
+,,,9,"Single-earner couple, female employed, youngest child 0 to 17","Famille comptant un couple avec une femme comme soutien, dont le plus jeune enfant a entre 0 et 17 ans",,,,
 ,,,10,"Single-earner couple, female employed, youngest child 18 to 24","Famille comptant un couple avec une femme comme soutien, dont le plus jeune enfant a entre18 et 24 ans",,,,
 ,,,11,"Non-earner couple, no children or none under 25","Famille comptant un couple sans soutien, pas d’enfant ou aucun enfant de moins de 25 ans",,,,
 ,,,12,"Non-earner couple, youngest child 0 to 17","Famille comptant un couple sans soutien, dont le plus jeune enfant a entre 0 et 17 ans",,,,
