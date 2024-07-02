@@ -9,6 +9,8 @@ The dataset used for this research project is an aggregation of Labour Force Sur
 
 https://www150.statcan.gc.ca/n1/pub/71m0001x/71m0001x2021001-eng.htm
 
+It can also be found in the 'Code' folder in the repository (along with the .ipny file).
+
 # Problem Statement
 
 What machine learning models can be used to predict an individuals wage with minimum error.
