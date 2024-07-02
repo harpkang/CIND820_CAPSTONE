@@ -51,7 +51,7 @@ MinMaxScaler() was used to standardize the continuous independent variables.
 Balanced bins of 5 were created, using a quantile strategy, for the continuous features for both the classification models and the apriori algorithm. In addition, for apriori algorithm only, the continuous target attribute was categorized into 5 balanced bins using the quantile strategy. 
 
 ### Sklearn Functions
-A host of functions were used to manipulate the data and too make sure there was no data leakage. 
+A host of functions were used to manipulate the data and to make sure there was no data leakage. 
 1. Hot Ones Encoding
 2. Column Transformer
 3. Pipeline
@@ -59,19 +59,33 @@ A host of functions were used to manipulate the data and too make sure there was
 # Approach
 
 To answer the three research questions outlined. Three different methodologies were used. 
-1. Classification Models
-2. Association Rules
-3. Non-Linear Regression Models
+A. Classification Models:
+	1. Random Forest
+	2. Decision Tree
+	3. XGBoost
+	4. SVC
+	5. Logistic Regression
+	6. MultinomialNB
+	
+B. Association Rules: Apriori 
+
+C. Non-Linear Regression Models:
+	1. Random Forest
+	2. Support Vector
+	3. XGBoost
+	4. KNN
+	5. Regression Tree
+	 
 
 ## Initial Results
-Initial Results using default settings indicated that Random Forest for both classification and non-linear regression had the best score. 
+Initial results using default settings indicated that Random Forest for both classification and non-linear regression had the best score. 
 
-Education is the most positively associated feature that generates above average earnings. 
+Education is the most positively associated feature that generates above average earnings in terms of association rules. 
 
 # Statistical Tools
 
-1. Friedman Test was used to evaluate classification models
-2. Kruskal-Wallis Test was used to evaluate non-linear regression models. 
+1. Friedman Test is used to evaluate classification models
+2. Kruskal-Wallis Test is used to evaluate non-linear regression models. 
 
 # Hyper Tuning
 A Randomized Grid Search will be used to fine tune the model, and will also use K-Folds. 
