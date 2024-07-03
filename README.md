@@ -30,7 +30,7 @@ What machine learning models can be used to predict an individuals wage with min
 
 1.	Which classification model, with tuned hyper parameters, will have a high accuracy and f1-score, and balanced precision and recall?
 
-	https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#classification
+	https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb##classification
 
 3.	What do data mining techniques, specifically association rules, reveal about the link between a high education level and above average hourly earnings?
 4.	Which non-linear regression model, with tuned hyper parameters, will have a strong RMSE in regard to the continuous response variable?
