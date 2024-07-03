@@ -24,16 +24,17 @@ It can also be found in the 'Code' folder in the repository (along with the .ipy
 
 # Problem Statement
 
-What machine learning models can be used to predict an individuals wage with minimum error.
+What machine learning models can be used to predict an individual's wage with minimum error.
 
 ### Research Questions
 
-1.	Which classification model, with tuned hyper parameters, will have a high accuracy and f1-score, and balanced precision and recall?
+1. Which classification model, with tuned hyper parameters, will have a high accuracy and f1-score, and balanced precision and recall?
 
-	https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb##classification
+    [Example Notebook - Classification](https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#classification)
 
-3.	What do data mining techniques, specifically association rules, reveal about the link between a high education level and above average hourly earnings?
-4.	Which non-linear regression model, with tuned hyper parameters, will have a strong RMSE in regard to the continuous response variable?
+2. What do data mining techniques, specifically association rules, reveal about the link between a high education level and above average hourly earnings?
+
+3. Which non-linear regression model, with tuned hyper parameters, will have a strong RMSE in regard to the continuous response variable?
 
 # Preparing the Dataset
 
@@ -49,7 +50,7 @@ The dataset was split into a training and testing set
 The response variable, hourly earnings, and two other other features used for machine learning were not normally distributed. To address the positively skewed dependent variable it was log transformed. 
 
 ### Assumptions of Linear Regression
-Assumptions of Linear Regression were not up held. The Homoscedasticity test was the only that failed. 
+Assumptions of Linear Regression were not upheld. The Homoscedasticity test was the only one that failed. 
 
 ### Outliers
 The IQR was used to remove the outliers from quantitative features. 
@@ -73,22 +74,22 @@ A host of functions were used to manipulate the data and to make sure there was 
 
 To answer the three research questions outlined. Three different methodologies were used. 
 1. Classification Models:
-	1. Random Forest
-	2. Decision Tree
-	3. XGBoost
-	4. SVC
-	5. Logistic Regression
-	6. MultinomialNB
-	
+    1. Random Forest
+    2. Decision Tree
+    3. XGBoost
+    4. SVC
+    5. Logistic Regression
+    6. MultinomialNB
+    
 2. Association Rules: Apriori 
 
 3. Non-Linear Regression Models:
-	1. Random Forest
-	2. Support Vector
-	3. XGBoost
-	4. KNN
-	5. Regression Tree
-	 
+    1. Random Forest
+    2. Support Vector
+    3. XGBoost
+    4. KNN
+    5. Regression Tree
+     
 
 ## Initial Results
 Initial results using default settings indicated that Random Forest for both classification and non-linear regression had the best score. 
