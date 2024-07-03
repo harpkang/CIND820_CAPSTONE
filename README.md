@@ -31,7 +31,8 @@ What machine learning models can be used to predict an individual's wage with mi
 
 1. Which classification model, with tuned hyper parameters, will have a high accuracy and f1-score, and balanced precision and recall?
 
-    [Link to Classification](https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#q1)
+    [Link to Classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Classification)
+
 
 2. What do data mining techniques, specifically association rules, reveal about the link between a high education level and above average hourly earnings?
 
