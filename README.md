@@ -71,7 +71,7 @@ The dependent variable was [log transformed](https://nbviewer.org/github/harpkan
 MinMaxScaler() was used to standardize the continuous independent variables using the column transformer ingested into the pipeline in both the classification and non-linear regression machine learning models. Please use the hyperlinks above to navigate to the the respective models. 
 
 ### Bins
-Balanced [bins](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Creatings-Bins-for-the-Aprirori-Algorithm) of 5 were created, using a quantile strategy, for the continuous features for both the classification models and the apriori algorithm. In addition, for apriori algorithm only, the continuous target attribute was categorized into 5 balanced bins using the quantile strategy. 
+Balanced [bins](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Apriori-Pre-Processing) of 5 were created, using a quantile strategy, for the continuous features for both the classification models and the apriori algorithm. In addition, for apriori algorithm only, the continuous target attribute was categorized into 5 balanced bins using the quantile strategy. 
 
 ### Sklearn Functions
 A host of functions were used to manipulate the data and to make sure there was no data leakage. 
@@ -101,14 +101,14 @@ To answer the three research questions outlined. Three different methodologies w
      
 
 ## Initial Results
-Initial results using default settings indicated that Random Forest for both [classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Classification-Base-Models-without-Hyper-Tuning) and [non-linear regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Base-Models-without-Hyper-Tuning) had the best score. 
+Initial results using default settings indicated that Random Forest for both [classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Classification-Base-Models) and [non-linear regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Base-Models-without-Hyper-Tuning) had the best score. 
 
 Education is the most positively associated feature that generates above average earnings in terms of association rules. 
 
 # Statistical Tools
 
-1. [Friedman Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Kruskal-Wallis-Test-for-Non-Linear-Regression) is used to evaluate classification models
-2. [Kruskal-Wallis Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Base-Models-without-Hyper-Tuning) is used to evaluate non-linear regression models. 
+1. [Friedman Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Friedman-Test-for-Classification) is used to evaluate classification models
+2. [Kruskal-Wallis Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Kruskal-Wallis-Test-for-Non-Linear-Regression) is used to evaluate non-linear regression models. 
 
 # Hyper Tuning
 A Randomized Grid Search will be used to fine tune the model, and will also use K-Folds. 
