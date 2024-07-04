@@ -7,13 +7,13 @@ Harpreet Kang
 # Contents of the Repository
 The following summary is given for the repository folders. 
 
-1. Abstract - Contains only the abstract from the first phase of the project. 
-2. Code - Contains the an excel version of the dataset along with the python code in an .ipynb file. It also contains an html version of the .ipynb file. 
-3. Dataset - Contains the data dictionary, list of variables, a link to the actual online dataset, and an excel version of the dataset. 
-4. Figures - Contains all the figures used in the report. 
-5. Initial Code- Contains the report from the third phase of the project, the GitHub link, and a link to the dataset online. 
-6. Literature Review, Data Description, and Approach - This contains the report that was written for the second phase of the project.
-7. Y Profile Reports - Contains many profile reports for EDA. 
+1. [Abstract](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Abstract) - Contains only the abstract from the first phase of the project. 
+2. [Code](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Code) - Contains the an excel version of the dataset along with the python code in an .ipynb file. It also contains an html version of the .ipynb file. 
+3. [Dataset](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Dataset) - Contains the data dictionary, list of variables, a link to the actual online dataset, and an excel version of the dataset. 
+4. [Figures](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Figures) - Contains all the figures used in the report. 
+5. [Initial Code](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Initial%20Code)- Contains the report from the third phase of the project, the GitHub link, and a link to the dataset online. 
+6. [Literature Review, Data Description, and Approach](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Literature%20Review%2C%20Data%20Description%2C%20and%20Approach) - This contains the report that was written for the second phase of the project.
+7. [Y Profile Reports](https://github.com/harpkang/CIND820_CAPSTONE/tree/main/Y%20Profling%20Reports) - Contains many profile reports for EDA. 
 
 # Dataset
 
@@ -48,7 +48,7 @@ The following are the Y Profile Reports, generated in PDF, in various stages of 
 # Preparing the Dataset
 
 ### Training & Testing Set
-The dataset was split into a training and testing set
+The dataset was split into a [training and testing](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Splitting-the-Data-into-Training-and-Testing) set
 
 ### Feature Selection Techniques:
 1. Addressing [Missing Data](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Missing-Values-)
