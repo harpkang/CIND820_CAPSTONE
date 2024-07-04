@@ -42,6 +42,13 @@ What machine learning models can be used to predict an individual's wage with mi
 
     [Link to Non-Linear Regression Models](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Regression)
 
+# Understanding the Dataset
+The following are the Y Profile Reports, generated in PDF, in various stages of preparing the data. The HTML versions of the reports are in the Y Profling Reports Data. 
+
+1.	[EDA - Profiling Report (As is)](https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Y%20Profling%20Reports/Profiling%20Report%20(As%20is).pdf)
+2. [EDA -  Profiling Report (After Removing Low Variance and Missing Values)](https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Y%20Profling%20Reports/Profiling%20Report%20(After%20Removing%20Low%20Variance%20and%20Missing%20Values).pdf) 
+3. [EDA - Profiling Report (After Removing Correlated Items)](https://github.com/harpkang/CIND820_CAPSTONE/blob/main/Y%20Profling%20Reports/Profiling%20Report%20(After%20Removing%20Correlated%20Items).pdf )
+
 # Preparing the Dataset
 
 ### Training & Testing Set
