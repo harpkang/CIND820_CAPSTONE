@@ -31,12 +31,16 @@ What machine learning models can be used to predict an individual's wage with mi
 
 1. Which classification model, with tuned hyper parameters, will have a high accuracy and f1-score, and balanced precision and recall?
 
-    [Link to Classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Classification)
+    [Link to Classification Models](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Classification)
 
 
 2. What do data mining techniques, specifically association rules, reveal about the link between a high education level and above average hourly earnings?
 
-3. Which non-linear regression model, with tuned hyper parameters, will have a strong RMSE in regard to the continuous response variable?
+	 [Link to Association Rules](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Apriori-Algorithm)
+
+4. Which non-linear regression model, with tuned hyper parameters, will have a strong RMSE in regard to the continuous response variable?
+
+    [Link to Non-Linear Regression Models](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Regression)
 
 # Preparing the Dataset
 
@@ -44,10 +48,9 @@ What machine learning models can be used to predict an individual's wage with mi
 The dataset was split into a training and testing set
 
 ### Feature Selection Techniques:
-1. Addressing Missing Data
-2. Addressing Low Variance
-3. Addressing Correlation
-
+1. Addressing [Missing Data](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Missing-Values-)
+2. Addressing [Low Variance](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Low-Variance-)
+4. Addressing [Correlation](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Correlation-Analysis)
 ### Normality
 The response variable, hourly earnings, and two other other features used for machine learning were not normally distributed. To address the positively skewed dependent variable it was log transformed. 
 
