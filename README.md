@@ -77,7 +77,8 @@ Balanced [bins](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/
 A host of functions were used to manipulate the data and to make sure there was no data leakage. 
 1. Hot Ones Encoding
 2. Column Transformer
-3. Pipeline
+3. KFold
+4. Pipeline
 
 # Approach
 
@@ -101,14 +102,14 @@ To answer the three research questions outlined. Three different methodologies w
      
 
 ## Initial Results
-Initial results using default settings indicated that Random Forest for both [classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Classification-Base-Models) and [non-linear regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Base-Models-without-Hyper-Tuning) had the best score. 
+Initial results using default settings indicated that Random Forest for both [classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Classification-Base-Models-without-Hyper-Tuning) and [non-linear regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Non-Linear-Base-Models-without-Hyper-Tuning) had the best score. 
 
 Education is the most positively associated feature that generates above average earnings in terms of association rules. 
 
 # Statistical Tools
 
-1. [Friedman Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Friedman-Test-for-Classification) is used to evaluate classification models
-2. [Kruskal-Wallis Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Kruskal-Wallis-Test-for-Non-Linear-Regression) is used to evaluate non-linear regression models. 
+1. [Friedman Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Friedman-Test-for-Classification) is used to evaluate classification models
+2. [Kruskal-Wallis Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Kruskal-Wallis-Test-for-Non-Linear-Regression) is used to evaluate non-linear regression models. 
 
 # Hyper Tuning
 A Randomized Grid Search will be used to fine tune the model, and will also use K-Folds. 
