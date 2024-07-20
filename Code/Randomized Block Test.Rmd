@@ -15,10 +15,104 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-## Below are the Cross Validated Scores from Python's Grid Search CV
+## Classification Cross Validation Accuracy Scores
 
 ```{r}
+random_forest<-c(0.537879557,0.633206147,0.634651996,0.522964719,0.729641638)
+svc<-c(0.419724165,0.45293459,0.537379469,0.419724165,0.419593711)
+xgboost_c<-c(0.385241758,0.415223572,0.396906148,0.525421523,0.403113457)
+lr<-c(0.424898638,0.424648602,0.4248008,0.424192024,0.424224636)
+nb<-c(0.394210179,0.394166696,0.394144951,0.394079727,0.394014504)
+dt<-c(0.287632209,0.37871919,0.3284306,0.287632209,0.250486439)
+```
+
+```{r}
+# Combine the data into a data frame
+all_classification <- data.frame(
+  "Group" = c(rep("Random Forest", 5), rep("SVC", 5), rep("XG Boost", 5), rep("Logistic Regression", 5), rep("Naive Bayes", 5), rep("Decision Tree",5)),
+  "Block" = rep(1:5, 6),
+  "Values" = c(random_forest, svc, xgboost_c, lr, nb,dt)
+)
+
+# Display the data frame
+print(all_classification)
+```
+
+```{r}
+#The ANOVA
+classification_assumption_check<-lm(Values ~ Group + Block, data=all_classification)
+```
+
+```{r}
+#TESTING ASSUMPTIONS
+#Generate residual and predicted values
+resids <- residuals(classification_assumption_check)
+preds <- predict(classification_assumption_check)
+sq_preds <- classification_assumption_check$preds^2
+#Look at a plot of residual vs. predicted values
+plot(y=resids,x=preds,
+xlab = "Predicted Values",
+ylab = "Residuals")
+
+# The plot shows randomized residuals around the 0.00, and thus an indication of constant variance.
 
 ```
 
+```{r}
+#Perform a Shapiro-Wilk test for normality of residuals
+shapiro.test(resids)
 
+#This test indicates the residuals are not normally distributed because the p-value is greater than 5%
+```
+
+
+## Non-Linear Regression Cross Validation RMSE
+
+```{r}
+knn<-c(0.328977747,	0.250175408,	0.329644394,	0.329255786,	0.255413083)
+rf<-c(0.321210365,	0.298181731,	0.298126238,	0.321063095,	0.251252871)
+xgboost<-c(0.422072652,	0.328237613,	0.333988386,	0.346997076,	0.374056097)
+svr<-c(0.348708043,	78.33119948,	0.334045062,	0.333435858,	0.364872575)
+rt<-c(0.369503196,	0.358987694,	0.363901882,	0.365161254,	0.364015575)
+```
+
+
+```{r}
+# Combine the data into a data frame
+all_nlr <- data.frame(
+  "Group" = c(rep("KNN", 5), rep("Random Forest", 5), rep("XG Boost", 5), rep("SVR", 5), rep("Regression Tree", 5)),
+  "Block" = rep(1:5, 5),
+  "Values" = c(knn, rf, xgboost, svr, rt)
+)
+
+# Display the data frame
+head(all_nlr)
+```
+
+
+```{r}
+#The ANOVA
+nlr_assumption_check<-lm(all_nlr$Values ~ Group + Block, data=all_nlr)
+```
+
+
+```{r}
+#TESTING ASSUMPTIONS
+#Generate residual and predicted values
+residuals <- residuals(nlr_assumption_check)
+predictions <- predict(nlr_assumption_check)
+sq_preds <- nlr_assumption_check$preds^2
+#Look at a plot of residual vs. predicted values
+plot(y=residuals,x=predictions,
+xlab = "Predicted Values",
+ylab = "Residuals")
+
+# The plot shows randomized residuals around the 0.00, and thus an indication of constant variance.
+```
+
+```{r}
+#Perform a Shapiro-Wilk test for normality of residuals
+shapiro.test(residuals)
+
+#This test indicates the residuals are not normally distributed because the p-value is less than 5%.
+```
