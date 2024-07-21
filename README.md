@@ -56,7 +56,7 @@ The dataset was split into a [training and testing](https://nbviewer.org/github/
 2. Addressing [Low Variance](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Low-Variance-)
 4. Addressing [Correlation](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Correlation-Analysis)
 ### Normality
-The response variable, hourly earnings, and two other other features used for machine learning were not [normally distributed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Checking-for-Normality). To address the positively skewed dependent variable, it was [log transformed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Log-Transform-the-Dependent-Value). 
+The response variable, hourly earnings, and two other other features used for machine learning were not [normally distributed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Checking-for-Normality) and is confirmed by the Shapiro-Wilk Test. To address the positively skewed dependent variable, it was [log transformed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Log-Transform-the-Dependent-Value). 
 
 
 ### Assumptions of Linear Regression
