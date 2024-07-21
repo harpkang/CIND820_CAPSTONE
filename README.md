@@ -1,4 +1,5 @@
 
+
 # CIND820 Capstone Project
 
 # Author
@@ -55,7 +56,7 @@ The dataset was split into a [training and testing](https://nbviewer.org/github/
 2. Addressing [Low Variance](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Low-Variance-)
 4. Addressing [Correlation](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Feature-Selection:-Correlation-Analysis)
 ### Normality
-The response variable, hourly earnings, and two other other features used for machine learning were not [normally distributed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Checking-for-Normality). To address the positively skewed dependent variable, it was [log transformed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Log-Transform-the-Dependent-Value). 
+The response variable, hourly earnings, and two other other features used for machine learning were not [normally distributed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Checking-for-Normality) and is confirmed by the Shapiro-Wilk Test. To address the positively skewed dependent variable, it was [log transformed](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Log-Transform-the-Dependent-Value). 
 
 
 ### Assumptions of Linear Regression
@@ -106,12 +107,19 @@ Initial results using default settings indicated that Random Forest for both [cl
 
 Education is the most positively associated feature that generates above average earnings in terms of association rules. 
 
-# Statistical Tools
+## Statistical Tools - Initial Results
 
 1. [Friedman Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Friedman-Test-for-Classification) is used to evaluate classification models
 2. [Kruskal-Wallis Test](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#Kruskal-Wallis-Test-for-Non-Linear-Regression) is used to evaluate non-linear regression models. 
 
-# Hyper Tuning
-A Randomized Grid Search will be used to fine tune the model, and will also use K-Folds. 
+# Hyperparameter Tuning
 
-# Conclusion
+Final results using default settings indicated that Random Forest for both [classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Classification-Models-Hyper-Tuned) and [non-linear regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#-Non-Linear-Regression-Hyper-Tuned) had the best score. 
+## Statistical Tools - Hyperparameter Tuning
+
+1. [Friedman Test - Classification](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Classification-Friedman-Test) is used to evaluate classification models
+2. [Friedman Test - Non-Linear Regression](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Non-Linear-Regression-Friedman-Test) is used to evaluate non-linear regression models. 
+
+# Conclusion - Best Parameters
+1. [Non-Linear Regression - Random Forest](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Non-Linear-Regression---Random-Forest) 
+2. [Classification - Random Forest](https://nbviewer.org/github/harpkang/CIND820_CAPSTONE/blob/main/Code/kang_harpreet_code_cind820.ipynb#--Classification---Random-Forest)
